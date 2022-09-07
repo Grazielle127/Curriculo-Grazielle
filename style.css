@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+header img{
+    width: 20%;
+    border-radius: 100%;
+    box-shadow: 0px 12px 12px black;
+}
+
+header .informacoes{
+    width: 100%;
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 2rem;
+    
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.nome h1{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    
+}
+
+.contato a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(15, 9, 12);
+    font-weight: bold;
+    transition: all 0.3s;
+    
+}
+.contato a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+.sobre{
+    display:flex;
+    flex-direction: column;
+    background-color: #fdfd83;
+    max-width: 450px;
+    line-height: 25px;
+    height: 330px;
+    padding: 30px;
+    border-radius: 4rem;
+    justify-content: center;
+    margin: 50px;
+
+    
+}
+
+
+.sobre h2{
+    padding-left: 40%;
+    padding-bottom: 1rem;
+
+}
+
+.cursos{
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(305, 100%, 80%);
+    max-width: 450px;
+    line-height: 25px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 4rem;
+    justify-content: center;
+    margin: 50px;
+
+
+}
+
+.cursos h2{
+    padding-left: 30%;
+    padding-bottom: 2rem;
+   
+}
+
+.experiencia{
+
+        display:flex;
+        flex-direction: column;
+        background-color: rgb(153, 214, 255);
+        max-width: 450px;
+        line-height: 25px;
+        height: 300px;
+        padding: 30px;
+        border-radius: 4rem;
+        justify-content: center;
+        margin: 50px;
+    
+
+}
+
+.experiencia h2{
+    padding-left: 25%;
+    padding-bottom: 2rem;
+
+}
+.soft{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(190, 255, 153);
+    max-width: 450px;
+    line-height: 25px;
+    height: 300px;
+    padding: 110px;
+    border-radius: 4rem;
+    justify-content: center;
+    margin: 50px;
+}
+
+.soft h2{
+    padding-left: 15%;
+    padding-bottom: 2rem;
+
+}
